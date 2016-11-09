@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+        <!-- top row -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/color1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@color/red"
+                android:contentDescription="color"
+                android:tag="color1" />
+
+            <ImageButton
+                android:id="@+id/color2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@color/orange"
+                android:contentDescription="color"
+                android:tag="color2" />
+
+            <ImageButton
+                android:id="@+id/color3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@color/yellow"
+                android:contentDescription="color"
+                android:tag="color3" />
+
+            <ImageButton
+                android:id="@+id/color4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@color/green"
+                android:contentDescription="color"
+                android:tag="color4" />
+
+        </LinearLayout>
+        <!-- bottom row -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/color5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@color/blue"
+                android:contentDescription="color"
+                android:onClick="paintClicked"
+                android:tag="color5" />
+            <ImageButton
+                android:id="@+id/color6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@color/purple"
+                android:contentDescription="color"
+                android:tag="color6" />
+            <ImageButton
+                android:id="@+id/color7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@color/brown"
+                android:contentDescription="color"
+                android:tag="color7" />
+            <ImageButton
+                android:id="@+id/color8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@mipmap/pattern3"
+                android:contentDescription="color"
+                android:tag="color8" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/action_delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_undo"
+        android:title="@string/action_undo"
+        android:icon="@drawable/ic_undo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_redo"
+        android:title="@string/action_redo"
+        android:icon="@drawable/ic_redo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_brush"
+        android:title="@string/action_brush"
+        android:icon="@drawable/ic_brush"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_color"
+        android:title="@string/action_color"
+        android:icon="@drawable/ic_color"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_opacity"
+        android:title="@string/action_opacity"
+        android:icon="@drawable/ic_opacity"
+        app:showAsAction="always" />
+</menu>
